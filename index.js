@@ -5,13 +5,6 @@ function distanceFromHqInBlocks(blocks) {
     return 'blocks' - 42;
   } else {
     return 42 - blocks;
-  }
-}
-
-function distanceFromHqInBlocks(street) {
-  if (street >= 42) {
-    return street - 42;
-  } else {
-    return 42 - street;
   };
 };
+
