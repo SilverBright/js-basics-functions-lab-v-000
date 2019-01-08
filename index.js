@@ -5,6 +5,5 @@ function distanceFromHqInBlocks(blocks) {
     return blocks - 42;
   } else {
     return 42 - blocks;
-  };
-};
-
+  }
+}
