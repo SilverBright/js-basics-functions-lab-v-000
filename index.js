@@ -29,7 +29,7 @@ function calculatesFarePrice(start, destination) {
       cost = 0
       break;
     case (distance > 400 && distance <= 2000):
-      cost = (distance - 400) * 0.02)
+      cost = ((distance - 400) * 0.02)
       break;
     case (distance > 2000 && distance <= 2500):
       cost = 25
